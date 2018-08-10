@@ -1,0 +1,73 @@
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.rotateLogo{
+    position: relative;
+    height: 222.9px;
+    width: 195.4px;
+}
+.rotateLogo>img{
+    height: 100%;
+    width: 100%;
+}
+img.poly{
+    left: 0;
+    top: 0;
+    transform-origin: 97.7px 98.076px;
+    animation: App-logo-spin infinite 20s linear;
+}
+#template-home .hero{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/537.jpg) ;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+#site-nav.uk-sticky.uk-active {
+    background-color: #2a9ace;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.imgresp, .imgresp2{
+    height: 70%;
+}
+
+.imgresp2{
+    display: none!important;
+}
+
+.uk-sticky-below .imgresp{
+    display: none!important;
+}
+
+.uk-sticky-below .imgresp2{
+    display: inline-block!important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2ca9e0 ;
+}
+
+.cover-parent, .project-img{
+    height: 380px;
+    overflow: hidden;
+}
+.cover-parent{
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(113, 113, 113, 0.7));
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #2ca9e0;
+}
+
+footer img{
+    height: 65px;
+    width: auto;
+}
