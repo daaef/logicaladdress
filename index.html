@@ -4,22 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="site/templates/img/favico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="site/templates/img/favico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="site/templates/img/favico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="site/templates/img/favico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="site/templates/img/favico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="site/templates/img/favico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="site/templates/img/favico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="site/templates/img/favico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="site/templates/img/favico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="site/templates/img/favico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="site/templates/img/favico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="site/templates/img/favico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="site/templates/img/favico/favicon-16x16.png">
-    <link rel="manifest" href="site/templates/img/favico/manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/innerLogo.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/innerLogo.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="site/templates/img/favico/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="img/innerLogo.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="site/templates/css/uikit/uikit.min.css">
@@ -49,12 +37,12 @@
     <noscript><img height="1" width="1" style="display:none"
                    src="https://www.facebook.com/tr?id=147291279200582&amp;ev=PageView&amp;noscript=1"
     /></noscript>
-    <title>Made Tight - Design & Development Agency | Made Tight</title>
+    <title>Logical Address</title>
     <meta name="keywords"
           content="digital, design, services, development, interface, user, experience, ui, ux, web, belgrade, serbia, outsourcing, agency, branding,"/>
     <meta name="description"
           content="We Help Brands & Businesses by Translating Their Needs in Extraordinary Customer Experiences"/>
-    <meta name="image" content="site/templates/img/mt-og.png"/>
+    <meta name="image" content="img/innerLogo.png"/>
     <meta name="robots" content=""/>
     <link rel="canonical" href="index.html"/>
     <meta name="generator" content="ProcessWire 3.0.39"/>
@@ -105,7 +93,7 @@
 <div class="header-wrapper">
     <header id="site-nav" class="" uk-sticky="top: 0;show-on-up: true;animation: uk-animation-slide-top;">
         <div class="uk-container nav-wrapper">
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <nav class="uk-navbar-container uk-navbar-transparent pointernone" uk-navbar>
                 <div class="uk-navbar-left trans-link">
                     <a href="index.html" class="logo-link imgresp">
                         <img src="img/la.png" class="uk-preserve uk-height-1-1" alt="madetight logo" uk-svg>
@@ -115,12 +103,12 @@
                     </a>
                 </div>
                 <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav uk-flex-middle">
-                        <li class="trans-link uk-active"><a href='index.html'>Home</a></li>
-                        <li class="trans-link"><a href='studio/index.html'>Studio</a></li>
-                        <li class="trans-link"><a href='services/index.html'>Services</a></li>
-                        <li class="trans-link"><a href='careers/index.html'>Careers</a></li>
-                        <li class="trans-link last-item"><a href='contact/index.html'>Contact</a></li>
+                    <ul class="uk-navbar-nav uk-flex-middle"  uk-scrollspy-nav="closest: li; scroll: true">
+                        <li class="trans-link uk-active"><a href='#home'>Home</a></li>
+                        <li class="trans-link"><a href='#about'>About</a></li>
+                        <li class="trans-link"><a href='#services'>Services</a></li>
+                        <li class="trans-link"><a href='#projects'>Projects</a></li>
+                        <li class="trans-link"><a href='#client'>Clients</a></li>
                     </ul>
                     <div class="burger-icon"><span></span><span></span><span></span><span></span></div>
                 </div>
@@ -164,7 +152,7 @@
         </div>
     </div>
     <main>
-        <section class="hero  scroll-spy-bottom" delay="200">
+        <section id="home" class="hero scroll-spy-bottom" delay="200">
             <div class="uk-container uk-flex uk-flex-center uk-flex-middle">
                 <div class="rotateLogo">
                     <img src="img/innerLogo.png" alt="">
@@ -172,31 +160,51 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section id="about" class="services">
             <div class="uk-container">
                 <div uk-grid>
-                    <div class="uk-width-1-3@l">
-                        <div class="service-item  "><h2>SERVICES</h2></div>
+                    <div class="uk-width-1-4@l">
+                        <div class="service-item  "><h2>ABOUT US</h2></div>
                     </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m">
-                        <div class="service-item  "><h5>SECURITY</h5>
-                            <p>We create original and effective digital environments, designed to empower your
-                                business.</p></div>
-                    </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m">
-                        <div class="service-item  "><h5>PENETRATION TESTING</h5>
-                            <p>Our design is translated into comprehensive digital environments built on latest
-                                development standards.</p></div>
+                    <div class="uk-width-3-4@l uk-width-1-1@m">
+                        <div class="service-item  ">
+                            <p>Logical Address Ltd. is an IT Firm and also the first flexible address company  in Nigeria, duly registered as a private company in Nigeria and the USA</p>
+                            <p>Logical Address Limited specializes in developing Intelligent software and smart IT solutions that incorporate machine learning techniques to analyze and solve real-world social and economic problems, as well as development and implementation of mission critical business applications with cutting edge technology to our customers round the globe. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="projects layout-boxed">
+        <section id="services" class="services">
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-1-4@xl">
+                        <div class="service-item  "><h2>SERVICES</h2></div>
+                    </div>
+                    <div class="uk-width-1-4@xl uk-width-1-3@m">
+                        <div class="service-item  "><h5>SOFTWARE-DEVELOPMENT</h5>
+                            <p>We have substantial experience in software development,offering dynamic solutions to put businesses in profitable positions with our array of services, creating solutions that stand out amongst others.</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-4@xl uk-width-1-3@m">
+                        <div class="service-item  "><h5>IT-OUTSOURCING</h5>
+                            <p>It is a challenge to keep track of emerging technologies and deploy them effectively to fuel your growth. Outsourcing helps you manage this challenge. Logical Address 360 degree approach enables us to help you meet this ever growing challenge of integrating technology to your business needs</p></div>
+                    </div>
+                    <div class="uk-width-1-4@xl uk-width-1-3@m">
+                        <div class="service-item"><h5>PENETRATION TESTING</h5>
+                            <p>
+                                Using Analytics based upon Human Security engineering, We figure out major regions in which threats could manifest <span class="color-main">YOUR</span> Organization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects layout-boxed">
             <div class="uk-container-large">
                 <div class="uk-grid-small" uk-grid>
                     <div class="uk-width-1-3@m">
-                        <div class="project"
-                             style="background: url(site/assets/files/1016/cover.jpg) no-repeat center center / cover;">
+                        <div class="project">
                             <div class="cover cover-parent bg-overlay"
                                  style="background: linear-gradient(rgba(169,201,199, 1) 0%, rgba(169,201,199, 0.7) 100%);"></div>
                             <a href="https://pie.ng/"
@@ -217,8 +225,7 @@
                         </div>
                     </div>
                     <div class="uk-width-1-3@m">
-                        <div class="project"
-                             style="background: url(site/assets/files/1017/mm.jpg) no-repeat center center / cover;">
+                        <div class="project">
                             <div class="cover cover-parent bg-overlay"
                                  style="background: linear-gradient(rgba(190,213,218, 1) 0%, rgba(190,213,218, 0.7) 100%);"></div>
                             <a href="https://schoolfees.ng/"
@@ -240,8 +247,7 @@
                         </div>
                     </div>
                     <div class="uk-width-1-3@m">
-                        <div class="project"
-                             style="background: url(site/assets/files/1047/kdstr-main-1.png) no-repeat center center / cover;">
+                        <div class="project">
                             <div class="cover cover-parent bg-overlay"
                                  style="background: linear-gradient(rgba(255,170,97, 1) 0%, rgba(255,170,97, 0.7) 100%);"></div>
                             <a href="https://dipsims.com/"
@@ -262,41 +268,16 @@
                                                           alt="placeholder"></div>
                         </div>
                     </div>
-                    <!--<div class="uk-width-1-3@m">-->
-                        <!--<div class="project"-->
-                             <!--style="background: url(site/assets/files/1124/intelisale.jpg) no-repeat center center / cover;">-->
-                            <!--<div class="cover cover-parent bg-overlay"-->
-                                 <!--style="background: linear-gradient(rgba(38,50,68, 1) 0%, rgba(38,50,68, 0.7) 100%);"></div>-->
-                            <!--<a href="projects/intelisale-marketing-site/index.html"-->
-                               <!--class="cover-parent project-link"-->
-                               <!--data-bgColorStart="38,50,68"-->
-                               <!--data-bgColorEnd="38,50,68"-->
-                               <!--data-url="/projects/intelisale-marketing-site/"-->
-                            <!--&gt;-->
-                                <!--<div class="project-info"><h3>Intelisale</h3>-->
-                                    <!--<p class="cat">2017 - iOS / Android / Website</p>-->
-                                    <!--<p class="desc">Intelisale is an iOS/Android and web platform for bringing all-->
-                                        <!--company sales activities into one place.</p></div>-->
-                                <!--<div role="button" class="btn-view">VIEW PROJECT-->
-                                    <!--<img src="site/templates/img/icons/arrow-white.svg" alt="icon arrow" class="arrow">-->
-                                <!--</div>-->
-                            <!--</a>-->
-                            <!--<div class="project-img"><img src="site/templates/img/project-placeholder.png"-->
-                                                          <!--alt="placeholder"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
                 </div>
             </div>
         </section>
-        <section class="clients">
+        <section id="clients" class="clients">
             <div class="uk-container"><h2>CLIENTS</h2>
-                <div class="uk-child-width-1-6@l uk-child-width-1-3@s uk-child-width-1-2 logos" uk-grid>
-                    <div class="client"><img src="site/assets/files/1/raif.png" alt=""></div>
-                    <div class="client"><img src="site/assets/files/1/gorenje.png" alt=""></div>
-                    <div class="client"><img src="site/assets/files/1/intelisale.png" alt=""></div>
-                    <div class="client"><img src="site/assets/files/1/kdstr.png" alt=""></div>
-                    <div class="client"><img src="site/assets/files/1/mm.png" alt=""></div>
-                    <div class="client"><img src="site/assets/files/1/trdcr.png" alt=""></div>
+                <div class="uk-child-width-1-4@l uk-child-width-1-3@s uk-text-center uk-child-width-1-2 logos" uk-grid>
+                    <div class="client" uk-tooltip="Westpoint Consult's Electronic Vehicle Administration Service"><img src="img/clients/evas.png" alt=""></div>
+                    <div class="client" uk-tooltip="Imo State Board of Internal Revenue"><img src="img/clients/imo.png" alt=""></div>
+                    <div class="client" uk-tooltip="Niger State Ministry of Transport"><img src="img/clients/niger.png" alt=""></div>
+                    <div class="client" uk-tooltip="nHub Nigeria"><img src="img/clients/nHub.png" alt=""></div>
                 </div>
             </div>
         </section>
@@ -308,37 +289,23 @@
                         <h2 class="h1">Contact Us</h2>
                     </span>
                 </div>
-                <div class="footer-bottom" uk-grid>
-                    <div class="uk-width-1-3@s">
-                        <div class="footer-bottom-block"><p class="p-small">Address:</p>
-                            <p class="p-small">Bulevar Arsenija Carnojevica 94/9</p></div>
+                <div class="footer-bottom uk-text-center">
+                    <div>
+                        <div class="footer-bottom-block">
+                            <p class="p-small leader">Address:</p>
+                            <p class="p-small">NITDA Annex Office (YIN) </p>
+                            <p class="p-small">No 5, Agatu Street off Gimbiya Street, Area 11. Abuja  </p></div>
                     </div>
-                    <div class="uk-width-1-3@s">
-                        <div class="footer-bottom-block"><p class="p-small">Tel: +381695403605</p>
-                            <p class="p-small">E-mail: hello@madetight.com</p></div>
-                    </div>
-                    <div class="uk-width-1-3@s">
-                        <div class="footer-bottom-block social-links">
-                            <div uk-grid>
-                                <div class="uk-width-1-2"><a href="https://www.behance.net/madetight" target="_blank"><p
-                                        class="p-small">Behance</p></a><a href="http://www.dribbble.com/madetight"
-                                                                          target="_blank"><p class="p-small">
-                                    Dribbble</p></a><a href="http://www.twitter.com/madetightcom" target="_blank"><p
-                                        class="p-small">Twitter</p></a></div>
-                                <div class="uk-width-1-2"><a href="http://www.facebook.com/madetight" target="_blank"><p
-                                        class="p-small">Facebook</p></a><a href="http://www.instagram.com/madetight"
-                                                                           target="_blank"><p class="p-small">
-                                    Instagram</p></a></div>
-                            </div>
+                    <div>
+                        <div class="footer-bottom-block uk-text-center pb-large">
+                            <p class="p-small">Tel: 08136589797</p>
+                            <p class="p-small">E-mail: <a class="uk-link underline-none" href="mailto:sales@logicaladdress.com">sales@logicaladdress.com</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="uk-clearfix pp">
-                    <div class="uk-float-right">
-                        <div class="legal trans-link"><a href="legal/index.html">Legal</a></div>
-                    </div>
-                    <div class="uk-float-left">
-                        <div class="allrr">All Rights Reserved ® Made Tight 2018</div>
+                    <div class="uk-text-center">
+                        <div class="allrr">All Rights Reserved ® LogicalAddress 2018</div>
                     </div>
                 </div>
             </div>

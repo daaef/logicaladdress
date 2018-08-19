@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 380px;
     overflow: hidden;
 }
+
 .cover-parent{
     background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(113, 113, 113, 0.7));
 }
@@ -70,4 +71,16 @@ footer{
 footer img{
     height: 65px;
     width: auto;
+}
+.pb-large{
+    padding-bottom: 70px;
+}
+
+.leader{
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.underline-none, .underline-none:visited, .underline-none:hover{
+    text-decoration: none!important;
 }

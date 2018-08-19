@@ -85,7 +85,7 @@ body {
     font-size: 5.5rem;
     line-height: 1;
     font-family: 'dincond-bold';
-    color: #FF4242;
+    color: #2ca9e0;
     margin: 0 0 0 0;
     text-transform: uppercase
 }
@@ -94,7 +94,7 @@ h2 {
     font-size: 3.2rem;
     line-height: 1;
     font-family: 'dincond-bold';
-    color: #FF4242
+    color: #2ca9e0
 }
 
 h3 {
@@ -117,7 +117,7 @@ h5 {
     font-size: 1.125rem;
     line-height: 1;
     font-family: 'dincond-bold';
-    color: #FF4242;
+    color: #2ca9e0;
     margin-top: 0;
     letter-spacing: 1px
 }
@@ -278,14 +278,14 @@ a:hover {
     letter-spacing: 2px;
     text-align: center;
     font-size: 16px;
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     color: #FFFFFF;
     font-family: 'graphik-medium'
 }
 
 .btn-scrolldown:hover, .btn-submit:hover {
     color: #FFFFFF;
-    background-color: #ff2828
+    background-color: #228bf6
 }
 
 .btn-browse {
@@ -300,16 +300,16 @@ a:hover {
 }
 
 .btn-link {
-    color: #FF4242;
-    font-family: 'graphik-medium'
+    color: #2ca9e0;
+    font-family: 'graphik-medium', sans-serif
 }
 
 .btn-link:hover {
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #overlay-menu .uk-modal-dialog {
-    background-color: #FF4242
+    background-color: #2ca9e0
 }
 
 @media only screen and (min-width: 961px) {
@@ -358,6 +358,10 @@ a:hover {
     color: #FFFFFF
 }
 
+.pointernone a{
+    pointer-events: none;
+}
+
 @media only screen and (max-height: 900px) {
     #overlay-menu .menu .page-links li a {
         font-size: 7vh;
@@ -387,7 +391,7 @@ a:hover {
 }
 
 .color-main {
-    color: #FF4242 !important
+    color: #2ca9e0 !important
 }
 
 .color-black {
@@ -419,7 +423,7 @@ form input[type=email], form input[type=text], form textarea {
 
 form input[type=email]:focus, form input[type=text]:focus, form textarea:focus {
     background: #FFFFFF;
-    border-color: #FF4242
+    border-color: #2ca9e0
 }
 
 form input[type=email]::-webkit-input-placeholder, form input[type=text]::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
@@ -468,9 +472,9 @@ form .check-btns .input-wrap, form .radio-btns .input-wrap {
 }
 
 form .check-btns .input-wrap.checked, form .radio-btns .input-wrap.checked {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     color: #FFFFFF;
-    border-color: #FF4242
+    border-color: #2ca9e0
 }
 
 form .check-btns .input-wrap .error, form .radio-btns .input-wrap .error {
@@ -497,7 +501,7 @@ form .uk-checkbox, form .uk-radio {
 }
 
 form .uk-checkbox:checked, form .uk-radio:checked {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     background-image: none;
     border: 3px solid #FFFFFF
 }
@@ -507,7 +511,7 @@ label.error {
     left: 18px;
     top: -20px;
     font-size: 12px;
-    color: #FF4242;
+    color: #2ca9e0;
     padding: 0;
     margin: 0;
     border: none;
@@ -676,7 +680,7 @@ label.error {
 }
 
 h1.heading {
-    color: #FF4242;
+    color: #2ca9e0;
     font-size: 18px;
     font-family: 'dincond-bold';
     letter-spacing: 1px;
@@ -717,7 +721,7 @@ h1.heading {
 .unclickable {
     pointer-events: none;
     background-color: #FFFFFF;
-    color: #FF4242
+    color: #2ca9e0
 }
 
 .cover-parent {
@@ -768,7 +772,7 @@ h1.heading {
     font-size: 5.5rem;
     line-height: 1;
     font-family: 'dincond-bold';
-    color: #FF4242;
+    color: #2ca9e0;
     margin: 0 0 0 0;
     text-transform: uppercase
 }
@@ -801,7 +805,7 @@ h1.heading {
 }
 
 .uk-checkbox:checked:focus, .uk-checkbox:indeterminate:focus, .uk-radio:checked:focus {
-    background-color: #FF4242
+    background-color: #2ca9e0
 }
 
 .uk-modal-close-full {
@@ -826,7 +830,7 @@ h1.heading {
 
 #site-nav .logo-link {
     display: inline-block;
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #site-nav .uk-navbar {
@@ -891,21 +895,21 @@ h1.heading {
 
 #site-nav .uk-navbar li.last-item.uk-active a {
     border: 1px solid transparent;
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     color: #FFFFFF
 }
 
 #site-nav .uk-navbar li.last-item a {
-    color: #FF4242;
+    color: #2ca9e0;
     height: 48px;
-    border: 1px solid #FF4242;
+    border: 1px solid #2ca9e0;
     border-radius: 4px;
     padding: 0 20px
 }
 
 #site-nav .uk-navbar li.last-item a:hover {
     border-color: transparent;
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     color: #FFFFFF;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -919,7 +923,7 @@ h1.heading {
 }
 
 #site-nav.uk-sticky.uk-active {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -980,7 +984,7 @@ h1.heading {
 #site-nav.uk-sticky.uk-active .uk-navbar li.last-item a:hover {
     border-color: transparent;
     background-color: #FFFFFF;
-    color: #FF4242;
+    color: #2ca9e0;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -1051,7 +1055,7 @@ h1.heading {
 footer {
     width: 100%;
     margin: 0 auto;
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     padding-bottom: 30px
 }
 
@@ -1137,7 +1141,7 @@ footer .contact-us p {
 }
 
 footer .footer-bottom .footer-bottom-block {
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    /*border-top: 1px solid rgba(255, 255, 255, 0.4);*/
     padding-top: 20px
 }
 
@@ -1283,7 +1287,7 @@ footer .pp .legal a {
 }
 
 #template-home .projects .project .project-info .cat {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 16px;
     margin: 0
 }
@@ -1494,7 +1498,7 @@ footer .pp .legal a {
 }
 
 #template-about .team .new-member {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     position: relative
@@ -1596,7 +1600,7 @@ footer .pp .legal a {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-family: 'dincond-bold';
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-career-single .apply-form {
@@ -1634,7 +1638,7 @@ footer .pp .legal a {
 
 #template-career-single #apply-form input[type=email]:focus, #template-career-single #apply-form input[type=text]:focus, #template-career-single #apply-form textarea:focus {
     background: #FFFFFF;
-    border-color: #FF4242
+    border-color: #2ca9e0
 }
 
 #template-career-single #apply-form input[type=email]::-webkit-input-placeholder, #template-career-single #apply-form input[type=text]::-webkit-input-placeholder, #template-career-single #apply-form textarea::-webkit-input-placeholder {
@@ -1668,7 +1672,7 @@ footer .pp .legal a {
 }
 
 #template-career-single #apply-form .btn-browse {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     padding: 5px 12px;
     border-radius: 4px;
     letter-spacing: 2px;
@@ -1681,7 +1685,7 @@ footer .pp .legal a {
 
 #template-career-single #apply-form .btn-browse:hover {
     color: #FFFFFF;
-    background-color: #ff2828
+    background-color: #228bf6
 }
 
 #template-career-single #apply-form #uploadFile {
@@ -1701,7 +1705,7 @@ footer .pp .legal a {
     left: 18px;
     bottom: -5px;
     font-size: 13px;
-    color: #FF4242;
+    color: #2ca9e0;
     padding: 0;
     margin: 0;
     border: none;
@@ -1764,7 +1768,7 @@ footer .pp .legal a {
 }
 
 #template-projects .projects .project-request-form form .btn-submit {
-    background-color: #FF4242;
+    background-color: #2ca9e0;
     width: 100%;
     padding: 16px 0
 }
@@ -1941,7 +1945,7 @@ footer .pp .legal a {
 #template-project-single #site-nav.dark li.last-item a:hover {
     border-color: transparent;
     background-color: #FFFFFF;
-    color: #FF4242;
+    color: #2ca9e0;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -1984,7 +1988,7 @@ footer .pp .legal a {
 }
 
 #template-project-single .hero header.bg-light p {
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-project-single .content {
@@ -2047,7 +2051,7 @@ footer .pp .legal a {
 }
 
 #template-project-single .content .testimonial h5.title {
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-project-single .content .testimonial .text {
@@ -2079,7 +2083,7 @@ footer .pp .legal a {
     font-size: 40px;
     line-height: 54px;
     margin-bottom: 40px;
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-project-single .content .quote h5 {
@@ -2120,7 +2124,7 @@ footer .pp .legal a {
 #blog .hero .show-cat-list {
     margin-top: 40px;
     display: inline-block;
-    color: #FF4242;
+    color: #2ca9e0;
     font-size: 22px
 }
 
@@ -2147,7 +2151,7 @@ footer .pp .legal a {
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 18px;
-    color: #FF4242;
+    color: #2ca9e0;
     margin-bottom: 8px;
     font-family: 'dincond-bold'
 }
@@ -2175,7 +2179,7 @@ footer .pp .legal a {
 }
 
 #blog #modal-cat .uk-modal-dialog {
-    background-color: #FF4242
+    background-color: #2ca9e0
 }
 
 #blog #modal-cat .uk-modal-dialog h1 {
@@ -2287,7 +2291,7 @@ footer .pp .legal a {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-family: 'dincond-bold';
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-services .hero {
@@ -2335,7 +2339,7 @@ footer .pp .legal a {
 }
 
 #template-services .service-grid .service-block .service-item .num {
-    color: #FF4242;
+    color: #2ca9e0;
     font-family: 'dincond-bold';
     font-size: 30px;
     line-height: 30px;
@@ -2360,7 +2364,7 @@ footer .pp .legal a {
 }
 
 #template-services .ways h3 {
-    color: #FF4242;
+    color: #2ca9e0;
     font-family: 'dincond-bold';
     font-size: 28px;
     letter-spacing: 1px;
@@ -2408,7 +2412,7 @@ footer .pp .legal a {
 }
 
 #template-services .model h2 {
-    color: #FF4242
+    color: #2ca9e0
 }
 
 #template-services .model p {
@@ -2449,7 +2453,7 @@ footer .pp .legal a {
 }
 
 #template-archive .projects .grid-item:hover {
-    border-color: #FF4242;
+    border-color: #2ca9e0;
     position: relative;
     z-index: 1;
     outline: none
