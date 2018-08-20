@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'graphik-medium';
-    src: url('../../fonts/Graphik-Medium-Web.eot');
-    src: url('../../fonts/Graphik-Medium-Webd41d.eot?#iefix') format('embedded-opentype'), url('../../fonts/Graphik-Medium-Web.html') format('woff2'), url('../../fonts/Graphik-Medium-Web.woff') format('woff');
+    src: url('../fonts/Graphik-Medium-Web.eot');
+    src: url('../fonts/Graphik-Medium-Webd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Graphik-Medium-Web.html') format('woff2'), url('../fonts/Graphik-Medium-Web.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-stretch: normal
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'graphik-regular';
-    src: url('../../fonts/Graphik-Regular-Web.eot');
-    src: url('../../fonts/Graphik-Regular-Webd41d.eot?#iefix') format('embedded-opentype'), url('../../fonts/Graphik-Regular-Web.woff2') format('woff2'), url('../../fonts/Graphik-Regular-Web.woff') format('woff');
+    src: url('../fonts/Graphik-Regular-Web.eot');
+    src: url('../fonts/Graphik-Regular-Webd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Graphik-Regular-Web.woff2') format('woff2'), url('../fonts/Graphik-Regular-Web.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'graphik-light';
-    src: url('../../fonts/Graphik-Light-Web.eot');
-    src: url('../../fonts/Graphik-Light-Webd41d.eot?#iefix') format('embedded-opentype'), url('../../fonts/Graphik-Light-Web.html') format('woff2'), url('../../fonts/Graphik-Light-Web.woff') format('woff');
+    src: url('../fonts/Graphik-Light-Web.eot');
+    src: url('../fonts/Graphik-Light-Webd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Graphik-Light-Web.html') format('woff2'), url('../fonts/Graphik-Light-Web.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-stretch: normal
@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: 'dincond-bold';
-    src: url('../../fonts/dincond-bold.otf');
+    src: url('../fonts/dincond-bold.otf');
     font-weight: bold;
     font-style: normal;
     font-stretch: normal
@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: 'miller-display';
-    src: url('../../fonts/miller-display.otf');
+    src: url('../fonts/miller-display.otf');
     font-weight: normal;
     font-style: normal;
     font-stretch: normal
@@ -43,14 +43,14 @@
 
 @font-face {
     font-family: "Charter ITC W01";
-    src: url("../../fonts/bd4a6c95-033c-41f0-9510-2de2be19ebc6d41d.eot?#iefix");
-    src: url("../../fonts/bd4a6c95-033c-41f0-9510-2de2be19ebc6d41d.eot?#iefix") format("eot"), url("../../fonts/6b354187-add6-421c-9022-918efeb1a9d4.html") format("woff2"), url("../../fonts/fcf607e0-9726-46de-99a0-3d80440fcad0.woff") format("woff"), url("../../fonts/3a077c2d-60d8-4c1e-947f-64cd5c57b382.ttf") format("truetype"), url("../../fonts/da20fd94-cdae-454e-a5d9-e1790eeaf24b.svg#da20fd94-cdae-454e-a5d9-e1790eeaf24b") format("svg")
+    src: url("../fonts/bd4a6c95-033c-41f0-9510-2de2be19ebc6d41d.eot?#iefix");
+    src: url("../fonts/bd4a6c95-033c-41f0-9510-2de2be19ebc6d41d.eot?#iefix") format("eot"), url("../fonts/6b354187-add6-421c-9022-918efeb1a9d4.html") format("woff2"), url("../fonts/fcf607e0-9726-46de-99a0-3d80440fcad0.woff") format("woff"), url("../fonts/3a077c2d-60d8-4c1e-947f-64cd5c57b382.ttf") format("truetype"), url("../fonts/da20fd94-cdae-454e-a5d9-e1790eeaf24b.svg#da20fd94-cdae-454e-a5d9-e1790eeaf24b") format("svg")
 }
 
 @font-face {
     font-family: "DINNextW01-CondensedBol";
-    src: url("../../fonts/71888b4d-cd66-4c8b-9a5c-b37014e8e4fad41d.eot?#iefix");
-    src: url("../../fonts/71888b4d-cd66-4c8b-9a5c-b37014e8e4fad41d.eot?#iefix") format("eot"), url("../../fonts/258804c2-9ca6-4856-bad7-67cde4f087b4.woff2") format("woff2"), url("../../fonts/0c0418fe-d324-4ab2-978a-e8201c646ca1.woff") format("woff"), url("../../fonts/2c4f6a99-1274-42cd-8d14-fecf6ae449a4.ttf") format("truetype"), url("../../fonts/aabfdee7-da54-4fae-93d3-afae95449faa.svg#aabfdee7-da54-4fae-93d3-afae95449faa") format("svg")
+    src: url("../fonts/71888b4d-cd66-4c8b-9a5c-b37014e8e4fad41d.eot?#iefix");
+    src: url("../fonts/71888b4d-cd66-4c8b-9a5c-b37014e8e4fad41d.eot?#iefix") format("eot"), url("../fonts/258804c2-9ca6-4856-bad7-67cde4f087b4.woff2") format("woff2"), url("../fonts/0c0418fe-d324-4ab2-978a-e8201c646ca1.woff") format("woff"), url("../fonts/2c4f6a99-1274-42cd-8d14-fecf6ae449a4.ttf") format("truetype"), url("../fonts/aabfdee7-da54-4fae-93d3-afae95449faa.svg#aabfdee7-da54-4fae-93d3-afae95449faa") format("svg")
 }
 
 html {
@@ -358,9 +358,6 @@ a:hover {
     color: #FFFFFF
 }
 
-.pointernone a{
-    pointer-events: none;
-}
 
 @media only screen and (max-height: 900px) {
     #overlay-menu .menu .page-links li a {
