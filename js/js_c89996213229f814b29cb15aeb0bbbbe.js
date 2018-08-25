@@ -11838,6 +11838,36 @@ window.onload = function () {
     $('.bg-mask').css({"z-index": 0});
 };
 $(document).ready(function () {
+    var contagem = document.getElementById("contagem");
+    function contador() {
+        var i = 0;
+        var contador = setInterval(frame, 5);
+        function frame() {
+            if (i == 70) {
+                clearInterval(contador);
+            } else {
+                i++;
+                contagem.innerHTML = i;
+            }
+        }
+    }
+
+    document.body.addEventListener('load', contador());
+    var contagem2 = document.getElementById("contagem2");
+    function contador2() {
+        var i = 0;
+        var contador2 = setInterval(frame, 5);
+        function frame() {
+            if (i == 25) {
+                clearInterval(contador2);
+            } else {
+                i++;
+                contagem2.innerHTML = i;
+            }
+        }
+    }
+
+    document.body.addEventListener('load', contador2());
     if ($('body').attr('id') === "template-project-single") {
         $('html').animate({scrollTop: 0}, 1);
         $('body').animate({scrollTop: 0}, 1);

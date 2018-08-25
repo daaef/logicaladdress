@@ -560,7 +560,7 @@ label.error {
 }
 
 #template-services .model p, #template-services .service-block, .block, .btn-scrolldown, .client, .contact-us .h1, .contact-us p, .footer-logo, .gains, .h1, .hero h1, .img-sr, .info, .input-wrap, .member, .post, .project, .standards h5, .subheading, .uk-input, .uk-legend, .uk-textarea, .ways h2, .ways h3, .ways p, article h4, article p, h1, h2 {
-    visibility: hidden
+    /*visibility: hidden*/
 }
 
 .project {
@@ -822,7 +822,22 @@ h1.heading {
 }
 
 #site-nav .nav-wrapper {
-    opacity: 0
+    /*opacity: 0*/
+}
+
+#completed .serve{
+    align-self: flex-start;
+}
+
+#contagem{
+    font-size: 4.7rem;
+    /*color: #ff514c;*/
+    font-weight: bolder;
+}
+#contagem2{
+    font-size: 4.7rem;
+    /*color: #6afaaa;*/
+    font-weight: bolder;
 }
 
 #site-nav .logo-link {
